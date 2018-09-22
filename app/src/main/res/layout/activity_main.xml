@@ -23,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="32dp"
         android:text="1º Aplicativo"
+        android:textColor="#088A4B"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,7 +74,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
         android:layout_marginTop="18dp"
+        android:background="#D8F6CE"
         android:text="LIMPAR"
+        android:textColor="#088A4B"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
@@ -83,7 +87,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="33dp"
         android:layout_marginTop="18dp"
+        android:background="#D8F6CE"
         android:text="SALVAR"
+        android:textColor="#088A4B"
+        android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/btnLimpar"
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
