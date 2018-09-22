@@ -79,7 +79,7 @@
         android:textColor="#088A4B"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
+        app:layout_constraintTop_toBottomOf="@+id/email"/>
 
     <Button
         android:id="@+id/btnSalvar"
